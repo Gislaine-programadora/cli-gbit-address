@@ -1,0 +1,25 @@
+{
+  "name": "gbit-address",
+  "version": "1.0.0",
+  "description": "Gera pares de chaves (endereço + chave privada) para testes locais de desenvolvimento Web3.",
+  "type": "module",
+  "bin": {
+    "gbit-address": "bin/gbit-address.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^12.6.3",
+    "ethers": "^6.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Gislaine-programadora",
+  "license": "MIT"
+}
