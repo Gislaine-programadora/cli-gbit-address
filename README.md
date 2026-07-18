@@ -1,6 +1,10 @@
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/9c57cfcb-31ef-4aa1-bed8-4cd0de27fe81" />
+
+
+
 <div align="center">
 
-![gbit-address](./assets/logo.png)
+
 
 ![version](https://img.shields.io/badge/VERSION-1.0.0-0078D4?style=for-the-badge)
 ![node](https://img.shields.io/badge/NODE.JS-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -12,7 +16,7 @@
 
 Igual às contas que o `npx hardhat node` mostra ao subir uma rede local — só que sob demanda, em qualquer terminal, sem precisar de um projeto Hardhat rodando.
 
-📦 [Pacote no NPM](https://www.npmjs.com/package/gbit-address) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
+📦 [Pacote no NPM](https://www.npmjs.com/package/cli-gbit-address) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
 
 </div>
 
