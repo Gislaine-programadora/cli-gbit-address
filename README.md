@@ -27,7 +27,8 @@
 
 Igual às contas que o `npx hardhat node` mostra ao subir uma rede local — só que sob demanda, em qualquer terminal, sem precisar de um projeto Hardhat rodando.
 
-📦 [Pacote no NPM](https://www.npmjs.com/package/gbit-address) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
+
+📦 **NPM:** https://www.npmjs.com/package/gbit-address · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
 
 
 
