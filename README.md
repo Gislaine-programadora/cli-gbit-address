@@ -9,6 +9,17 @@
 ![version](https://img.shields.io/badge/VERSION-1.0.0-0078D4?style=for-the-badge)
 ![node](https://img.shields.io/badge/NODE.JS-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![license](https://img.shields.io/badge/LICENSE-MIT-4CAF50?style=for-the-badge)
+![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
+
+
+
+![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
+
+![CLI](https://img.shields.io/badge/CLI-Tool-000000?style=for-the-badge&logo=gnubash&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![NPM](https://img.shields.io/badge/NPM-Package-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 # 🔑 gbit-address
 
@@ -16,7 +27,7 @@
 
 Igual às contas que o `npx hardhat node` mostra ao subir uma rede local — só que sob demanda, em qualquer terminal, sem precisar de um projeto Hardhat rodando.
 
-📦 [Pacote no NPM](https://www.npmjs.com/package/cli-gbit-address) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
+📦 [Pacote no NPM](https://www.npmjs.com/package/gbit-address) · 💻 [Repositório no GitHub](https://github.com/Gislaine-programadora)
 
 </div>
 
@@ -28,11 +39,21 @@ As chaves geradas por esse CLI são para **testes e desenvolvimento local**. Ela
 
 **Nunca envie fundos reais para esses endereços, e nunca use essas chaves em produção ou em redes mainnet.** Uma chave que já foi exibida em tela ou salva em arquivo não deve ser considerada segura para guardar valor real.
 
-## 🚀 Uso
+
+
+
+## Instalação
+
+```bash
+npm install -g gbit-address
+```
+
+ou
 
 ```bash
 npx gbit-address
 ```
+
 
 Por padrão, gera **10 contas**. Para gerar uma quantidade diferente:
 
@@ -40,14 +61,28 @@ Por padrão, gera **10 contas**. Para gerar uma quantidade diferente:
 npx gbit-address 20
 ```
 
+
+
 ## ✨ O que cada conta mostra
 
 ```
 Conta #0
-  Address:     0x1234...
-  Private Key: 0xabcd...
-  Balance:      10000.0 ETH (saldo simulado, apenas para testes locais)
+
+Address:     
+0xb092AE....
+
+Private Key:
+0xa39470....
+
+Balance:
+10000 ETH   (saldo simulado, apenas para testes locais)
+ 
+  
 ```
+
+
+
+
 
 - **Address** e **Private Key** são gerados com [ethers.js](https://docs.ethers.org/), a mesma biblioteca usada por ferramentas como Hardhat e MetaMask — criptograficamente seguros e aleatórios.
 - **Balance** é apenas ilustrativo (não existe rede de verdade por trás), útil para simular contas de teste em interfaces e scripts.
@@ -58,6 +93,8 @@ Ao final, o CLI pergunta se você quer salvar as contas em `gbit-accounts.json`.
 
 - O arquivo é criado na pasta atual
 - Se existir um `.gitignore` no projeto, o CLI **adiciona `gbit-accounts.json` automaticamente**, evitando que chaves privadas sejam enviadas sem querer para um repositório público
+
+
 
 ## 📦 Instalação
 
@@ -72,6 +109,28 @@ npm install -g gbit-address
 gbit-address
 ```
 
+
+## Recursos
+
+✅ Gera 10 contas Ethereum
+
+✅ Endereços únicos
+
+✅ Private Keys
+
+✅ Compatível com Hardhat
+
+✅ Compatível com Ganache
+
+✅ Compatível com Foundry
+
+✅ Ideal para testes locais
+
+✅ Saída organizada
+
+
+
+
 ## 🛠️ Tecnologias
 
 - Node.js
@@ -80,11 +139,20 @@ gbit-address
 - [inquirer](https://www.npmjs.com/package/inquirer) — confirmação para salvar em arquivo
 - [figlet](https://www.npmjs.com/package/figlet) + [gradient-string](https://www.npmjs.com/package/gradient-string) — logo ASCII colorido
 
+
+
+
+
+  
+
 ## 🗺️ Roadmap
 
 - [ ] Opção de gerar contas a partir de uma mnemônica (seed phrase) específica
 - [ ] Suporte a outras redes além de EVM (ex: Solana)
 - [ ] Flag `--quiet` para gerar sem prints, direto para arquivo
+
+
+
 
 ## 🤝 Ecossistema Gbit
 
@@ -95,6 +163,10 @@ gbit-address
 | [`gbit-readme`](https://github.com/Gislaine-programadora) | Gera README profissional automaticamente |
 | [`gbit-address`](https://github.com/Gislaine-programadora) | Este CLI — gera pares de chaves para testes Web3 |
 | [`create-gbit-app`](https://github.com/Gislaine-programadora) | Projetos fullstack completos (Backend + Frontend Vite/TS + Smart Contracts) |
+
+
+
+
 
 ## 📄 Licença
 
